@@ -62,7 +62,7 @@
  }
  
  .container .btn:hover {
-   background-color: black;
+   background-color: white;
  }
   .top-left {
    position: absolute;
@@ -70,6 +70,6 @@
    left: 16px;
    top: 50%;
    left: 5%;
-   color: purple;
+   color: white;
  }
  
