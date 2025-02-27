@@ -1,28 +1,46 @@
-.main{
 
+
+body{
+  background-color: #700f0e;
+  
+}
+
+.main{
     width:70%;
     margin:0 auto;
+    background-color: black;
     }
     
     nav{
     display: flex;
     justify-content: space-around;
-    background: white;
+    background:black;
     position: sticky;
     top:0;
+    font-size:x-large;
+    padding: 20px;
     }
-    
-    .splash{width:100%;}
+    a{
+      text-decoration: none;
+    }
+    .splash{
+      width:100%;
+      
+    }
     
     .products{display:flex;
     justify-content: space-around;}
     .product{
       width:30%;
     }
-    .productImg{width:100%;}
+    .productImg{
+      width:100%;
+      
+    }
     
     p{
       font-size:2vw;
+      color: whitesmoke;
     }
     
     
@@ -46,6 +64,15 @@
    height: auto;
  }
  
+ .sub-title{
+  position: absolute;
+  left:30%;
+  top: 42%;
+  font-size:2vw;
+  color: whitesmoke;
+  width: fit-content;
+  width: 41%;
+ }
  
  .container .btn {
    position: absolute;
@@ -62,14 +89,16 @@
  }
  
  .container .btn:hover {
-   background-color: white;
+   background-color: #700f0e;
  }
   .top-left {
    position: absolute;
    top: 8px;
    left: 16px;
    top: 50%;
-   left: 5%;
+   left: 20%;
    color: white;
+   background-color: black;
+   padding: 10px;
  }
  
