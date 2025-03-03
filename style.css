@@ -1,5 +1,6 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Englebert&family=Irish+Grover&display=swap');
 body{
   background-color: #700f0e;
   
@@ -8,7 +9,8 @@ body{
 .main{
     width:70%;
     margin:0 auto;
-    background-color: black;
+    background-color: rgb(2,145,86);
+    font-family: "Irish Grover", system-ui;
     }
     
     nav{
@@ -19,9 +21,12 @@ body{
     top:0;
     font-size:x-large;
     padding: 20px;
+    font-family: "Irish Grover", system-ui;
+    color: whitesmoke;
     }
     a{
       text-decoration: none;
+      color: whitesmoke;
     }
     .splash{
       width:100%;
@@ -68,10 +73,11 @@ body{
   position: absolute;
   left:30%;
   top: 42%;
-  font-size:2vw;
+  font-size: x-large;
   color: whitesmoke;
   width: fit-content;
-  width: 41%;
+  width: 40%;
+  font-family: "Englebert", cursive;
  }
  
  .container .btn {
@@ -86,6 +92,7 @@ body{
    border: none;
    cursor: pointer;
    border-radius: 5px;
+   
  }
  
  .container .btn:hover {
@@ -95,10 +102,18 @@ body{
    position: absolute;
    top: 8px;
    left: 16px;
-   top: 50%;
-   left: 20%;
+   top: 54%;
+   left: 8%;
    color: white;
-   background-color: black;
+   background-color: rgb(2,145,86);
    padding: 10px;
+   width: 400px;
+   font-size: larger;
+   font-family: "Englebert", cursive;
+   border-radius: 25px;
  }
  
+ .btn{
+  color:#700f0e
+
+ }
