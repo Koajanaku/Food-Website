@@ -2,21 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Englebert&family=Irish+Grover&display=swap');
 body{
-  background-color:  rgb(2,145,86);
+  background-color:  rgb(255, 255, 255);
   
 }
-
+.big{
+  display: flex;
+  justify-content: center;
+  font-size: 150px;
+  position: sticky;
+}
 .main{
     width:70%;
     margin:0 auto;
-    background-color: #af0e0c;
+    background-color: rgb(0, 236, 0);
     font-family: "Irish Grover", system-ui;
     }
     
     nav{
     display: flex;
     justify-content: space-around;
-    background:#af0e0c;
+    background:rgb(255, 0, 0);
     position: sticky;
     top:0;
     font-size:x-large;
@@ -37,7 +42,7 @@ body{
     justify-content: space-around;}
     .product{
       width:30%;
-      background-color:  rgb(2,145,86);
+      background-color:  rgb(255, 255, 255);
       padding: 20px;
     }
     .productImg{
@@ -47,7 +52,7 @@ body{
     
     p{
       font-size:2vw;
-      color: whitesmoke;
+      color: rgb(0, 0, 0);
     }
     
     
@@ -74,7 +79,7 @@ body{
  .sub-title{
   position: absolute;
   left:30%;
-  top: 42%;
+  top: 59%;
   font-size: x-large;
   color: whitesmoke;
   width: fit-content;
@@ -87,7 +92,7 @@ body{
    top: 81%;
    left: 14%;
    transform: translate(-50%, -50%);
-   background-color:#af0e0c;
+   background-color:rgb(18, 221, 0);
    color:white;
    font-size: 16px;
    padding: 12px 24px;
@@ -98,7 +103,7 @@ body{
  }
  
  .container .btn:hover {
-   background-color: #700f0e;
+   background-color: rgb(18, 221, 0);
  }
   .top-left {
    position: absolute;
@@ -107,7 +112,7 @@ body{
    top: 44%;
    left: 5%;
    color: white;
-   background-color: rgb(2,145,86);
+   background-color: rgb(18, 221, 0);
    padding: 10px;
    width: 400px;
    font-size: larger;
